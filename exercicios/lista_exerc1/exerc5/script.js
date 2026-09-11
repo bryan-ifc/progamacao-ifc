@@ -1,0 +1,10 @@
+let Pedreiro = parseFloat(prompt ("quantas horas o pedreiro trabalhou?"));
+let Pintor = parseFloat(prompt ("e o pintor? Quantas horas ele trabalhou?"));
+let valorPedreiro = 20;
+let valorPintor = 16;
+let custoPedreiro = Pedreiro * valorPedreiro;
+let custoPintor = Pintor * valorPintor;
+let custoFinal = custoPintor + custoPedreiro;
+alert("O custo do pedreiro foi de R$ " +custoPedreiro.toFixed(2));
+alert("O custo do pintor foi de R$" +custoPintor.toFixed(2));
+alert("O custo total foi de R$" +custoFinal.toFixed(3));

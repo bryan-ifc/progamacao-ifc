@@ -1,0 +1,6 @@
+console.log("Oi meu nome é Andre")
+console.log("Eu queria comprar um carro!")
+console.log('teste')
+console.log(typeof "Oi meu nome é Andre")
+console.log(typeof"Eu queria comprar um carro!")
+console.log(typeof'teste')

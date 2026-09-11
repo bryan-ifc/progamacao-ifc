@@ -1,0 +1,10 @@
+let horas = parseFloat(prompt("Quantas horas você ficou em viagem?"));
+let velocidadeMedia = parseFloat(prompt("Qual foi sua velocidade média durante a viagem?"));
+let precoKm = parseFloat(prompt("Quantos km ele roda por litro?"));
+let precoCombustivel = parseFloat(prompt("Qual foi o preço do combustível que você pagou?"));
+let distancia = horas * velocidadeMedia;
+let litros = distancia / precoKm;
+let custoTotal = litros * precoCombustivel;
+alert (" O preço total da sua viagem " +custoTotal.toFixed(2));
+alert ("A quantidade de litros que você gastou foi de " +litros.toFixed(2));
+alert ("A distância que você percorreu foi de " +distancia.toFixed(2));

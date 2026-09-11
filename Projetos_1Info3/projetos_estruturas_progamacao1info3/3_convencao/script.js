@@ -1,0 +1,19 @@
+
+console.log("let 3nome='teste'");
+//let 3nome='teste'
+console.log("let nome3='teste1'");
+let nome3='teste1'
+console.log("let $nome='teste2'");
+let $nome='teste2'
+console.log("let _nome='teste3'");
+let _nome='teste3'
+console.log("let !nome='teste4'");
+//let !nome='teste4'
+console.log("let Nome='teste5'");
+let Nome='teste5'
+console.log("let @nome='teste6'");
+//let @nome='teste6'
+console.log("let seuNome='teste'");
+let seuNome='teste'
+console.log("let seu_nome='teste7'");
+let _seu_nome='teste7'
